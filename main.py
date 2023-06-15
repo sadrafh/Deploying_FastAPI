@@ -1,9 +1,8 @@
 # Put the code for your API here.
 
 """
-Script for FastAPI instance and model inference
-author: Laurent veyssier
-Date: Dec. 16th 2022
+author: Sadra Fardhosseini
+Date: June. 15th 2023
 """
 
 # Put the code for your API here.

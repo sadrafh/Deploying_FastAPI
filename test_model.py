@@ -1,7 +1,6 @@
 """
-Unit test of model.py module with pytest
-author: Laurent veyssier
-Date: Dec. 16th 2022
+author: Sadra Fardhosseini
+Date: June. 15th 2023
 """
 
 import pytest, os, logging, pickle

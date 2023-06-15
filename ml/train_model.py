@@ -1,3 +1,8 @@
+"""
+author: Sadra Fardhosseini
+Date: June. 15th 2023
+"""
+
 # Script to train machine learning model.
 
 from sklearn.model_selection import train_test_split
