@@ -9,8 +9,8 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.exceptions import NotFittedError
 
-from ml.model import inference, compute_model_metrics, compute_confusion_matrix
-from ml.data import process_data
+from model.model import inference, compute_model_metrics, compute_confusion_matrix
+from model.data import process_data
 
 
 """
