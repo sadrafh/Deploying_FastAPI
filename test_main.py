@@ -1,3 +1,9 @@
+"""
+Unit test of main.py API module with pytest
+author: Laurent veyssier
+Date: Dec. 16th 2022
+"""
+
 from fastapi.testclient import TestClient
 #from fastapi import HTTPException
 import json
