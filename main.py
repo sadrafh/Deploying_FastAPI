@@ -13,6 +13,7 @@ from pydantic import BaseModel
 import pandas as pd
 import os, pickle
 from ml.data import process_data
+import uvicorn 
 
  # path to saved artifacts
 savepath = './model'
@@ -140,4 +141,4 @@ async def ingest_data(inference: InputData):
 
 
 if __name__ == '__main__':
-    pass
+    uvicorn.run(app, host='0.0.0.0', port=int(os.environ.get('PORT', -5000)))
